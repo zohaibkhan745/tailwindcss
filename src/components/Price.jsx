@@ -17,14 +17,14 @@ export default function Price() {
                         </div>
                         <ul className="mt-4">
                             {option.features.map((feature, index) => (
-                                <li key={index} className="flex items-center space-x-2">
-                                    <CheckCircle2 size={20} />
-                                    <span>{feature}</span>
+                                <li key={index} className="mt-8 flex items-center">
+                                    <CheckCircle2  />
+                                    <span className="ml-2">{feature}</span>
                                 </li>
                             ))}
                         </ul>
-                        <a href="#" className="block w-full mt-6 bg-gradient-to-r from-orange-500 to-orange-800
-                        text-center py-2 px-3 rounded-md">Get Started</a>
+                        <a href="#" className="inline-flex justify-center items-center text-center
+                        w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200">Subscribe</a>
                     </div>
                 </div>
             ))}

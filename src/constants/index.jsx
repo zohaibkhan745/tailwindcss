@@ -11,12 +11,18 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
+import Feature from "../components/Feature";
+import Workflow from "../components/Workflow";
+import Price from "../components/Price";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Features", href: "/Feature" },
+  { label: "Workflow", href: "/Workflow" },
+  { label: "Pricing", href: "Price" },
+  { label: "Testimonials", href: "Testimonials" },
 ];
 
 export const testimonials = [

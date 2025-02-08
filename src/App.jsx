@@ -6,6 +6,9 @@ import { Feather } from "lucide-react";
 import Feature from "./components/Feature";
 import Workflow from "./components/Workflow";
 import Price from "./components/Price";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
+
 function App() {
 
 
@@ -17,6 +20,8 @@ function App() {
       <Feature/>
       <Workflow/>
       <Price/>
+      <Testimonials/>
+      <Footer/>
       </div>
       
     </>
